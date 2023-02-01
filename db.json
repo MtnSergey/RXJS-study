@@ -1,0 +1,87 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "Iphone 14 Pro Max dual-SIM 256 ГБ, золотой",
+      "price": "142 990 ₽",
+      "color": "золотой",
+      "memory": "256 ГБ",
+      "image": "assets/images/Iphone 14 Pro Max 256.jpeg",
+      "configure": {
+        "processor": "A16 Bionic",
+        "display": "OLED",
+        "camera": "основная: ƒ/1.78, сверхшироко­угольная: ƒ/2.2, телефото (2x): ƒ/1.78, телефото (3x): ƒ/2.8"
+      }
+    },
+    {
+      "id": 2,
+      "title": "Iphone 14 Pro Max dual-SIM 128 ГБ, золотой",
+      "price": "129 990 ₽",
+      "color": "золотой",
+      "memory": "128 ГБ",
+      "image": "assets/images/Iphone 14 Pro Max 256.jpeg",
+      "configure": {
+        "processor": "A16 Bionic",
+        "display": "OLED",
+        "camera": "основная: ƒ/1.78, сверхшироко­угольная: ƒ/2.2, телефото (2x): ƒ/1.78, телефото (3x): ƒ/2.8"
+      }
+    },
+    {
+      "id": 3,
+      "title": "Iphone 14 Pro Max eSIM 1 ТБ, золотой",
+      "price": "189 990 ₽",
+      "color": "золотой",
+      "memory": "1 ТБ",
+      "image": "assets/images/Iphone 14 Pro Max 256.jpeg",
+      "configure": {
+        "processor": "A16 Bionic",
+        "display": "OLED",
+        "camera": "основная: ƒ/1.78, сверхшироко­угольная: ƒ/2.2, телефото (2x): ƒ/1.78, телефото (3x): ƒ/2.8"
+      }
+    }
+  ],
+  "basket": [
+    {
+      "id": 3,
+      "title": "Iphone 14 Pro Max eSIM 1 ТБ, золотой",
+      "price": "189 990 ₽",
+      "color": "золотой",
+      "memory": "1 ТБ",
+      "image": "assets/images/Iphone 14 Pro Max 256.jpeg",
+      "configure": {
+        "processor": "A16 Bionic",
+        "display": "OLED",
+        "camera": "основная: ƒ/1.78, сверхшироко­угольная: ƒ/2.2, телефото (2x): ƒ/1.78, телефото (3x): ƒ/2.8"
+      },
+      "quantuty": 4
+    },
+    {
+      "id": 1,
+      "title": "Iphone 14 Pro Max dual-SIM 256 ГБ, золотой",
+      "price": "142 990 ₽",
+      "color": "золотой",
+      "memory": "256 ГБ",
+      "image": "assets/images/Iphone 14 Pro Max 256.jpeg",
+      "configure": {
+        "processor": "A16 Bionic",
+        "display": "OLED",
+        "camera": "основная: ƒ/1.78, сверхшироко­угольная: ƒ/2.2, телефото (2x): ƒ/1.78, телефото (3x): ƒ/2.8"
+      },
+      "quantuty": 2
+    },
+    {
+      "id": 2,
+      "title": "Iphone 14 Pro Max dual-SIM 128 ГБ, золотой",
+      "price": "129 990 ₽",
+      "color": "золотой",
+      "memory": "128 ГБ",
+      "image": "assets/images/Iphone 14 Pro Max 256.jpeg",
+      "configure": {
+        "processor": "A16 Bionic",
+        "display": "OLED",
+        "camera": "основная: ƒ/1.78, сверхшироко­угольная: ƒ/2.2, телефото (2x): ƒ/1.78, телефото (3x): ƒ/2.8"
+      },
+      "quantuty": 4
+    }
+  ]
+}

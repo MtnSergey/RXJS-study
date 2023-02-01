@@ -1,0 +1,52 @@
+<div class="mat-toolbar-header">
+  <mat-toolbar color="primary" *ngIf="canEdit">
+    <mat-toolbar-row>
+      <span class="example-spacer"></span>
+      <button class="button" mat-raised-button (click)="openDialog()">
+        Добавить товар
+      </button>
+    </mat-toolbar-row>
+  </mat-toolbar>
+</div>
+<div class="container">
+  <mat-card class="example-card" *ngFor="let product of products">
+    <mat-card-title>{{ product.title }}</mat-card-title>
+    <img mat-card-image src="{{ product.image }}" width="300px" />
+    <mat-card-content>
+      <p>Цвет: {{ product.color }}</p>
+      <p>Память: {{ product.memory }}</p>
+      <p>{{ product.price }}</p>
+    </mat-card-content>
+    <mat-card-actions>
+      <button
+        class="button"
+        mat-raised-button
+        (click)="addToBasket(product)"
+        type="button"
+      >
+        В корзину
+      </button>
+      <button
+        class="button"
+        mat-raised-button
+        [routerLink]="['/product', product.id]"
+      >
+        Подробнее
+      </button>
+      <button
+        class="button"
+        mat-raised-button
+        mat-button
+        [matMenuTriggerFor]="menu"
+      >
+        Изменить
+      </button>
+      <mat-menu #menu="matMenu">
+        <button mat-menu-item (click)="deleteItem(product.id)">Удалить</button>
+        <button mat-menu-item (click)="openDialog(product)">
+          Редактировать
+        </button>
+      </mat-menu>
+    </mat-card-actions>
+  </mat-card>
+</div>
